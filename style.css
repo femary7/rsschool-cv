@@ -1,0 +1,57 @@
+div {
+  border: groove;;
+  padding: 5px;
+}
+.img1 {
+  float: right;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+body {
+  background-image: url("https://wallpaperset.com/w/full/a/e/d/427161.jpg");
+  margin-top: 0px;
+  margin-bottom: 50px;
+  margin-right: 350px;
+  margin-left: 350px;
+}
+h1 {
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-family: "Audiowide", sans-serif;
+}
+h2 {
+  color: silver;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 18px;
+}
+.one {
+  color: silver;
+  text-align: center;
+  margin-top: 20px;
+  font-family: "Audiowide", sans-serif;
+  font-size: 18px;
+}
+.two {
+  color: white;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 16px; 
+}
+footer {
+  text-align: center;
+  padding: 0px;
+  background-color: white;
+  opacity: 0.6;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height: 45px;
+  width:100%;
+}
